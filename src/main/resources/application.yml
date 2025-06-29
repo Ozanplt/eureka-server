@@ -1,0 +1,8 @@
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false   # Kendini Eureka’ya kaydetmesin
+    fetchRegistry: false          # Kendi registry’sini çekmesin
+    serviceUrl:
+      defaultZone: http://eureka-server/
